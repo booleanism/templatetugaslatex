@@ -34,7 +34,7 @@
     \author{
         \nimvar \delimpipe \namavar
     }
-    \date{\today}%
+    \date{}%
 
     \maketitle
 }
@@ -46,5 +46,8 @@
 \newenvironment{jawaban}
     {\vspace*{5px}\hrule\vspace*{3px}}
     {\vspace*{4px}\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt \vspace*{10px}}
+
+
+\newcommand{\soal}[1]{\item {\textbf{#1}}}
 
 
