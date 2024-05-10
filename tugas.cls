@@ -34,7 +34,6 @@
     \author{
         \nimvar \delimpipe \namavar
     }
-    \date{}%
 
     \maketitle
 }
@@ -42,12 +41,12 @@
 \newenvironment{pertanyaan}[1][]
     {\begin{enumerate}[label=\textbf{\arabic*.}, #1]}
     {\end{enumerate}}
-    
-\newenvironment{jawaban}
-    {\vspace*{5px}\hrule\vspace*{3px}}
+
+\newcommand{\soal}[1]{\item {\textbf{#1}} \\{} {\vspace*{-30pt} \begin{center}\rule{.95\textwidth}{.4pt}\end{center} \vspace*{-10pt}}}
+
+\newcommand{\jawaban}[1]{
+    {#1}
     {\vspace*{4px}\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt \vspace*{10px}}
-
-
-\newcommand{\soal}[1]{\item {\textbf{#1}}}
+}
 
 
