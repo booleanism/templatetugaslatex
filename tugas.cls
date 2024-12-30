@@ -3,7 +3,8 @@
 \LoadClass{article}
 
 \usepackage[T1]{fontenc}
-\usepackage{times}
+\RequirePackage{fontspec}
+\setmainfont{Times New Roman}
 \usepackage[%
     left=0.75in,
     right=0.75in,
